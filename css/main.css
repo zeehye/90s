@@ -1,0 +1,319 @@
+/* main */
+.main_image img {
+    max-width: 100%;
+}
+.banner {
+    padding: 10px;
+}
+.banner li {
+    padding: 10px;
+    text-align: center;
+}
+.banner img {
+    max-width: 100%;
+}
+.banner p {
+    margin-top: 10px;
+    line-height: 150%;
+}
+.banners h3 {
+    font-size: 50px;
+    font-family: "Impact";
+    color: #ffffff;
+    letter-spacing: 6px;
+}
+.banners p {
+    color: #E8068C;
+}
+.banners.box{
+    text-align: center;
+}
+.banners::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.items {
+    padding: 15px;
+    padding-bottom: 40px;
+    background-color: #f9f9f9; 
+}
+.items h3 {
+    padding: 5px;
+    font-size: 16px;
+}
+.items li span {
+    font-size: 13px;
+}
+.items img {
+    max-width: 100%;
+    display: block;
+}
+.items ul {
+    background-color: white;
+    margin-bottom: 20px;
+}
+.items li:nth-child(2) { padding: 15px 10px; }
+.items li:last-child { padding: 0px 10px 10px 10px; }
+.fashion {
+    padding-top: 15px;
+}
+#cat1 {
+    background-color: transparent;
+    padding: 0px;
+    margin-top: 10px;
+}
+.fashion h2 {
+    font-size: 17px;
+    color: #ffffff;
+    padding: 15px;
+    border-bottom: solid 1px #888888;
+}
+.fashion h6 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 15px;
+    border-bottom: solid 1px #888888;
+}
+.fashion h3 {
+    font-size: 17px;
+    padding: 10px 0 10px 0;
+}
+.fashion h3 a {
+    color: #888888;
+    padding: 15px;
+}
+.fashion h3 a span {
+    color: #E8068C;
+}
+.fashion a img {
+    transition: all 0.2s linear;
+
+    width: 277px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+.fashion a:hover img {
+    transform: scale(1.05);
+}
+.fashion img {
+    max-width: 100%;
+    display: block;
+    margin: 0px auto;
+    overflow: hidden;
+}
+.fashion ul {
+    background-color: transparent;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+/* item */
+.it {
+    text-align: center;
+}
+#right {
+    width: 1150px;
+    height: 845px;
+    margin: 0 auto;
+}
+#main_title {
+    width: 1100px;
+    padding: 10px;
+    border-bottom: solid 1px #444444;
+    margin: 24px 0 0 24px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: bold;
+}
+#main_img {
+    padding: 15px;
+    border-radius: 30px;
+}
+#thumnail {
+    padding: 30px 0 30px 0;
+    display: flex;
+    justify-content: center; align-items: center;
+}
+#thumnail #move_left {
+    float: left;
+}
+#thumnail #photos {
+    margin: 0 0;
+    width: 600px;
+}
+#thumnail #move_right {
+    float: right;
+    display: inline;
+}
+#thumnail #photos li {
+    display: inline;
+    margin-left: 15px;
+}
+#thumnail #photos img {
+    border: solid 3px #3d3d3d;
+}
+#thumnail #photos a:hover img {
+    border: solid 3px #E8068C;
+}
+/* music */
+.music {
+    padding-top: 15px;
+}
+.music h2 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 15px;
+    border-bottom: solid 1px #888888;
+}
+.music h3 {
+    font-size: 17px;
+    padding: 10px 0 10px 0;
+    color: #ffffff;
+}
+.music h3 a {
+    color: #888888;
+    padding: 15px;
+}
+.music h3 a span {
+    color: #E8068C;
+}
+.music h4 {
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 300;
+}
+.music a img {
+    transition-duration: 1s;
+    background: #ffffff;
+    opacity: 1;
+}
+.music a:hover img {
+    opacity: 0.4;
+}
+.music img {
+    max-width: 100%;
+    display: block;
+}
+.music ul {
+    background-color: transparent;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+/* movie */
+.movie {
+    padding-top: 15px;
+}
+.movie h2 {
+    font-size: 17px;
+    color: #ffffff;
+    padding: 15px;
+    border-bottom: solid 1px #888888;
+}
+.movie h6 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 15px;
+    border-bottom: solid 1px #888888;
+}
+.movie h3 {
+    font-size: 16px;
+    padding: 10px 0 10px 0;
+    color: #ffffff;
+}
+.movie h3 a {
+    color: #888888;
+    padding: 15px;
+}
+.movie h3 a span {
+    color: #E8068C;
+}
+.movie h4 {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #ffffff;
+}
+.movie h5 {
+    margin: 5px 0 12px 0;
+    font-size: 13px;
+    color: #ffffff;
+}
+.movie p {
+    color: #b4b4b4;
+    margin: 10px 0 10px 0;
+}
+.movie button {
+    width: 175px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #E8068C;
+    color: #ffffff;
+    font-size: 15px;
+}
+.movie img {
+    max-width: 100%;
+    display: block;
+}
+.movie ul {
+    background-color: transparent;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+[class*="col_"] {  float: left; }
+.col_s_1 { width: 8.33%; }   .col_s_2 {  width: 16.66%;  }
+.col_s_3 { width: 25%; }     .col_s_4 {  width: 33.33%;  }
+.col_s_5 { width: 41.66%; }  .col_s_6 {  width: 50%;  }
+.col_s_7 { width: 58.33%; }  .col_s_8 {  width: 66.66%;  }
+.col_s_9 { width: 75%; }     .col_s_10 {  width: 83.33%;  }
+.col_s_11 { width: 91.66%; } .col_s_12 { width: 100%; }
+@media only screen and (min-width: 768px) {
+    /* 테블릿 CSS */
+    .col_m_1 { width: 8.33%; }   .col_m_2 { width: 16.66%; }
+    .col_m_3 { width: 25%; }     .col_m_4 { width: 33.33%;  }
+    .col_m_5 { width: 41.66%; }  .col_m_6 { width: 50%; }
+    .col_m_7 { width: 58.33%; }  .col_m_8 { width: 66.66%; }
+    .col_m_9 { width: 75%; }     .col_m_10 { width: 83.33%; }
+    .col_m_11 { width: 91.66%; } .col_m_12 { width: 100%; }
+    .box { 
+        max-width: 1170px; 
+        margin: 0 auto; 
+        position: relative;
+    }
+    .banners { margin: 50px 0; } 
+    .items { padding-top: 60px; }
+    .item { padding-right: 15px; }
+
+}
+
+@media only screen and (min-width: 1200px) {
+    /* 데스크톱 CSS */
+    .col_1 { width: 8.33%; }   .col_2 { width: 16.66%; }
+    .col_3 { width: 25%; }     .col_4 { width: 33.33%; }
+    .col_5 { width: 41.66%; }  .col_6 { width: 50%; }
+    .col_7 { width: 58.33%; }  .col_8 { width: 66.66%; }
+    .col_9 { width: 75%; }     .col_10 { width: 83.33%; }
+    .col_11 { width: 91.66%; } .col_12 { width: 100%; }
+
+    .box {
+        max-width: 1170px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .banner { padding-right: 30px; }
+    .items { padding-top: 60px; }
+    .item { padding-right: 15px; }
+    #cat1 {
+        height: 900px;
+    }
+    header .menu-toggle-btn {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .music img {
+        padding: 10px;
+    }
+}
